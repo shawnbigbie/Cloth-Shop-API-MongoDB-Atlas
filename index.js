@@ -21,6 +21,10 @@ mongoose.connect(process.env.DB_CONNECTION,  { useNewUrlParser: true, useUnified
     console.log('Connected to DB')
 );
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the node.js Shop API.');
+})
+
 // Server
 server.listen(PORT, (req, res) => console.log(`Server running on: ${PORT}`));
 
