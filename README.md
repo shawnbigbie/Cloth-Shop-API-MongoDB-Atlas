@@ -5,7 +5,7 @@ Type "npm install" in console
 
 Then type "npm start" to run API
 
-Runs on http://localhost:3000 or ### for live version
+Runs on http://localhost:3000 or https://syndicateorginal-api.herokuapp.com/ for live version
 
 ## To Get all Product or Manufacture
 Send a Get Request to
